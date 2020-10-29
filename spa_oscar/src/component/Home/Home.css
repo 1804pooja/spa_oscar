@@ -1,0 +1,54 @@
+.home-image {
+  width: 100%;
+  height: 500px;
+  background-image: url("../../images/oscar-f.jpg");
+  background-size: cover;
+  margin-bottom: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.home-image:hover {
+  background-image: url("../../images/oscar-hover.jpg");
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.main-content {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.container h2 {
+  text-align: center;
+}
+.thumbnail-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 25px;
+}
+.home-thumbnail-1,
+.home-thumbnail-2,
+.home-thumbnail-3 {
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  border: 2px solid grey;
+  padding: 2px 5px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-thumbnail-1 {
+  background-image: url("../../images/rameMalek.jpg");
+}
+.home-thumbnail-2 {
+  background-image: url("../../images/olivia-1.jpg");
+}
+.home-thumbnail-3 {
+  background-image: url("../../images/rami-1.jpg");
+}
+.home-thumbnail-1:hover,
+.home-thumbnail-2:hover,
+.home-thumbnail-3:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

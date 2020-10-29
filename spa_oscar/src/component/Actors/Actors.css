@@ -1,0 +1,30 @@
+.actor-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.actor-image {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #cecece;
+  background-size: cover;
+  background-image: url("../../images/rami-1.jpg");
+}
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+h2 {
+  text-align: center;
+}
+.back {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid lightgray;
+  padding: 3px 8px;
+  border-radius: 5px;
+  background-color: rgb(149, 216, 238);
+  text-decoration: none;
+}
